@@ -8,22 +8,17 @@ In recent years, microservices architecture has gained immense popularity in the
 
 Nevertheless you are transferring your microservices to monolith, designing monolith from scratch or design you system according to microservices pattern, staying agile, efficient, and adaptable is key.
 
-> And here I'd like to introduce you **micro-packages architecture pattern definition©**.
+> And here I'd like to introduce and invite you to contribute to concept of **micro-packages architecture pattern definition**.
  
 This approach, inspired by microservices, offers a fresh perspective on how to structure and manage code in a modular and scalable way. Micro-packages can be thought of as the smaller building blocks within a software project. These are individual, self-contained pieces of code, each serving a specific function or solving a particular problem. While they share similarities with libraries and modules, micro-packages go a step further by emphasizing extreme modularity, minimalism, and a focus on doing one thing exceptionally well.
 
 # Benefits of Micro-Packages Architecture
 
  - **modularity**: micro-packages promote a highly modular approach to code organization. Developers can easily pick and choose the specific functionalities they need, reducing code bloat and improving maintainability.
-
  - **scalability**: by breaking down a project into a collection of micro-packages, it becomes easier to scale and evolve individual components independently. This means faster development and deployment cycles for specific features or improvements.
-
  - **reusability**: micro-packages are designed to be reusable across projects. When you create a micro-package to solve a particular problem, it can be shared across different applications, saving time and effort.
-
  - **version control**: managing dependencies and updates becomes simpler with micro-packages. Each micro-package can have its version control, allowing for fine-grained control over updates and backward compatibility.
-
  - **collaboration**: teams can collaborate more efficiently as micro-packages facilitate better code isolation and clearer interfaces. This also makes it easier to onboard new team members.
-
  - **testing and maintenance**: smaller, focused codebases are easier to test and maintain. When issues arise, it's often easier to locate and fix them in a specific micro-package.
 
 > Conceptually, the pattern is similar to microservices one, at least one binary package can be treated as a service but a difference is that it can be used in monolith application or reused in another service. Moreover, during package updates (keeping its API unchanged) you can transfer functionality to external services - in another words you can scale your application.
