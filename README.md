@@ -4,7 +4,8 @@
 In recent years, microservices architecture has gained immense popularity in the software development world. This approach offers numerous benefits, such as scalability, agility, and ease of maintenance, making it a compelling choice for many organizations. It promotes rapid development, deployment, and scaling of services. However, there are instances where the microservices approach might not be the best fit. As an example, you can read about how and why Amazon [has been dumped microservices for video monitoring](https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservices-for-video-monitoring/). But not only Amazon, the below architectural trends figure
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9ddhk2c9aa5rr8g00hgt.png) indicates, that modular monolith is already on early majority stage in 2023. Hmm, it seems to be a growing trend...
   
-#Understanding Micro-Packages
+# Understanding Micro-Packages
+
 Nevertheless you are transferring your microservices to monolith, designing monolith from scratch or design you system according to microservices pattern, staying agile, efficient, and adaptable is key.
 
 > And here I'd like to introduce you **micro-packages architecture pattern definition©**.
