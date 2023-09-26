@@ -1,3 +1,4 @@
+
 # Microservices & Monolith
 
 In recent years, microservices architecture has gained immense popularity in the software development world. This approach offers numerous benefits, such as scalability, agility, and ease of maintenance, making it a compelling choice for many organizations. It promotes rapid development, deployment, and scaling of services. However, there are instances where the microservices approach might not be the best fit. As an example, you can read about how and why Amazon [has been dumped microservices for video monitoring](https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservices-for-video-monitoring/). But not only Amazon, the below architectural trends figure
